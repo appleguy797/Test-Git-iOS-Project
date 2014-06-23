@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0429A71958008900F7B8CB /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0429A61958008900F7B8CB /* test.m */; };
 		DE6E23061957FA49007D608D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E23051957FA49007D608D /* main.m */; };
 		DE6E23091957FA49007D608D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E23081957FA49007D608D /* AppDelegate.m */; };
 		DE6E230C1957FA49007D608D /* GIT_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE6E230A1957FA49007D608D /* GIT_Test.xcdatamodeld */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0429A51958008900F7B8CB /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		DE0429A61958008900F7B8CB /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		DE6E23001957FA49007D608D /* GIT Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6E23041957FA49007D608D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE6E23051957FA49007D608D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				DE6E23131957FA49007D608D /* Images.xcassets */,
 				DE6E230A1957FA49007D608D /* GIT_Test.xcdatamodeld */,
 				DE6E23031957FA49007D608D /* Supporting Files */,
+				DE0429A51958008900F7B8CB /* test.h */,
+				DE0429A61958008900F7B8CB /* test.m */,
 			);
 			path = "GIT Test";
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0429A71958008900F7B8CB /* test.m in Sources */,
 				DE6E230C1957FA49007D608D /* GIT_Test.xcdatamodeld in Sources */,
 				DE6E23091957FA49007D608D /* AppDelegate.m in Sources */,
 				DE6E230F1957FA49007D608D /* ViewController.m in Sources */,
@@ -408,6 +414,7 @@
 				DE6E23251957FA49007D608D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE6E23261957FA49007D608D /* Build configuration list for PBXNativeTarget "GIT TestTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +423,7 @@
 				DE6E23281957FA49007D608D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
